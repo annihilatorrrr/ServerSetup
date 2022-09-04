@@ -17,5 +17,5 @@ cd dmcaprobot && pip3 install --no-cache-dir -U -r requirements.txt && python3.1
 cd pyuserbot && python3.10 main.py
 ```
 ```
-cd botstatusprobot && python3.10 main.py
+cd Status && python3.10 main.py
 ```
