@@ -15,7 +15,7 @@ must have a domain in cloudflare; take from freemnom then transfer it to there
 sudo apt install firewalld
 sudo firewall-cmd --zone=public --permanent --add-port=443/tcp
 sudo firewall-cmd --reload
-sudo iptables -I INPUT -m state --state NEW -p tcp --dport 3000 -j ACCEPT
+sudo iptables -I INPUT -m state --state NEW -p tcp --dport 443 -j ACCEPT
 sudo netfilter-persistent save
 ```
 then open in the protal!
