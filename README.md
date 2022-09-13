@@ -1,5 +1,5 @@
 # ServerSetup
-My orcale server setup script!
+My oracle server setup script!
 
 ## To use a webhook:
 
@@ -9,7 +9,7 @@ My orcale server setup script!
 > Now do screen then set port for ex. 443 which has been provided in the local host url of cloudflare tunnel; then ```sudo su``` then activate virtual env then cd and run it.
 > Must do ```git config --global --add safe.directory /home/ubuntu/folder``` for git pull support and ```sudo chown -R ubuntu /home/ubuntu/venv/``` for pip3.
 
-## Open port in orcale:
+## Open port in oracle firewall:
 ```
 sudo apt install firewalld
 ```
