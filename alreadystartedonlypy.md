@@ -11,9 +11,6 @@ cd Sagiri && pip3 install --no-cache-dir -U -r requirements.txt && python3.10 -m
 cd Rubina && pip3 install --no-cache-dir -U -r requirements.txt && python3.10 -m alita
 ```
 ```
-cd dmcaprobot && pip3 install --no-cache-dir -U -r requirements.txt && python3.10 main.py
-```
-```
 cd pyuserbot && python3.10 main.py
 ```
 ```
