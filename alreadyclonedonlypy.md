@@ -25,7 +25,3 @@ cd pyuserbot && python3.11 main.py
 ```
 cd Status && python3.11 main.py
 ```
-```
-cd tgfilestorebot && pip3 install --no-cache-dir -U -r requirements.txt && python3.11 main.py
-```
-
