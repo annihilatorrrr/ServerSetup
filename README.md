@@ -32,7 +32,7 @@ iptables -P INPUT ACCEPT
 iptables -P FORWARD ACCEPT
 iptables -P OUTPUT ACCEPT
 iptables -F
-apt-get purge netfilter-persistent
-reboot
+sudo apt-get purge netfilter-persistent
+sudo reboot
 ```
 > Then open in the protal!
