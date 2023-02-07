@@ -25,3 +25,6 @@ cd pyuserbot && python3.11 main.py
 ```
 cd Status && python3.11 main.py
 ```
+```
+cd Sagirihelper && cd __pycache__ && python3.11 main.cpython-311.opt-2.pyc
+```
