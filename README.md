@@ -26,13 +26,4 @@ sudo iptables -I INPUT -m state --state NEW -p tcp --dport 443 -j ACCEPT
 ```
 sudo netfilter-persistent save
 ```
-## Disable Oracle Default Firewall
-```
-iptables -P INPUT ACCEPT
-iptables -P FORWARD ACCEPT
-iptables -P OUTPUT ACCEPT
-iptables -F
-sudo apt-get purge netfilter-persistent
-sudo reboot
-```
 > Then open in the protal!
